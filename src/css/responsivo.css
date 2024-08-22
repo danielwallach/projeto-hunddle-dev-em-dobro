@@ -1,0 +1,93 @@
+
+@media (max-width: 770px) {
+    body {
+        padding: 40px 40px 0 40px;
+    }
+
+    header {
+        margin-bottom: 20px;
+    }
+
+    .principal-content .description h1 {
+        font-size: 35px;
+    }
+
+    .principal-content .description p {
+        font-size: 17px;
+    }
+
+    .principal-content .description .btn-register {
+        font-size: 18px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 625px) {
+    header {
+        margin-bottom: 30px;
+    }
+    .principal-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .principal-content .description {
+        align-items: center;
+        margin-bottom: 0;
+        gap: 15px;
+    }
+
+    footer {
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 375px) {
+            body {
+                padding: 30px 30px 0 30px;
+            }
+
+            header img {
+                width: 130px;
+                margin-bottom: 15px;
+            }
+        
+            .principal-content {
+                flex-direction: column;
+                gap: 50px;
+            }
+
+            .principal-content .description h1 {
+                font-size: 22px;
+                margin-bottom: 5px;
+            }
+           
+            .principal-content .description p {
+                font-size: 16px;
+                margin-bottom: 5px;
+            }
+
+            .principal-content .description .btn-register {
+                font-size: 13px;
+                width: 200px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            footer a {
+                width: 30px;
+                height: 28px;
+                padding: 10px;
+            }
+
+            footer a i {
+                font-size: 12px;
+            }
+
+
+        }
